@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registeration Form</title>
+    <style>
+        table,tr,td{
+            border: 1px solid green;
+        }
+    </style>
+  </head>
+  <body>
+    <form action="" method="post">
+      <table>
+        <tablehead>
+          <tr>
+            <th colspan="2"><b>registratuion form</b></th>
+          </tr>
+        </tablehead>
+        <tablebody>
+          <tr>
+            <td>
+              <label for="fname">frist name</label>
+            </td>
+            <td>
+              <input type="text" name="fname" id="fname" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="lastname">last name</label>
+            </td>
+            <td>
+              <input type="text" name="lname" id="lastname" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="username">user name</label>
+            </td>
+            <td>
+              <input type="text" name="uname" id="username" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="pass">password</label>
+            </td>
+            <td>
+              <input type="password" name="password" id="pass" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="track">Track</label>
+            </td>
+            <td>
+              <select name="track" id="track" >
+                <option value="Bl">Bl</option>
+                <option value="python">Python</option>
+                <option value=".net">.net</option>
+                <option value="mern">mern</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Gender</label>
+            </td>
+            <td>
+              <input type="radio" name="gender" id="male" value="male" />
+              <label for="male">male</label>
+              <input type="radio" name="gender" id="female" value="female" />
+              <label for="female">female</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Favorite</label>
+            </td>
+            <td>
+              <input type="checkbox" name="favorite"  id="football" value="football" />
+              <label for="football">football</label>
+              <input type="checkbox" name="favorite"  id="basket" value="basketball" />
+              <label for="basket">basketball</label>
+              <br>
+              <input type="checkbox" name="favorite"  id="games" value="games" />
+              <label for="games">games</label>
+              <br>
+              <input type="checkbox" name="favorite"  id="reading" value="reading" />
+              <label for="reading">reading</label>
+              <input type="checkbox" name="favorite"  id="swimming" value="swimming" />
+              <label for="swimming">swimming</label>
+              <br>
+              <input type="checkbox" name="favorite"  id="Trave" value="Trave" />
+              <label for="Trave">Trave</label>
+           </td>
+          </tr>
+          <tr>
+              <td>
+                  <label for="des">description</label>
+              </td>
+              <td>
+                  <textarea name="description" id="des" cols="20" rows="5"></textarea>
+              </td>
+          </tr>
+          <tr>
+              <td colspan="2" style="text-align:center">
+                  <input type="submit" >
+                  <input type="reset">
+              </td>
+          </tr>
+          <tr>
+            <td colspan="2" >
+                <input type="file">
+            </td>
+        </tr>
+        </tablefoot>
+      </table>
+    </form>
+  </body>
+</html>
